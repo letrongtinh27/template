@@ -446,7 +446,7 @@
   top: 50%;
   height: 0;
   width: 150%;
-  background-color: #1fa198;
+  background-color: #1da1f2;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   content: "";
@@ -457,7 +457,7 @@
 }
 .btn:hover,
 .btn-2:hover {
-  color: #fff;
+  color: #c89979;
 }
 .btn:hover::before,
 .btn-2:hover::before {
