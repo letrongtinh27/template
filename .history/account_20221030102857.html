@@ -507,90 +507,108 @@
                         <!-- địa chỉ -->
                         <div class="tab-pane" id="address">
                           <h3>Sổ địa chỉ</h3>
-                          <div
-                            class="login"
-                            id="edit_address"
-                            style="display: block"
-                          >
-                            <div class="login-form-container" id="edit_address__form" style="display: none">
-                              <div class="account-login-form">
-                                <form action="#">
-                                  <div class="account-input-box">
-                                    <label>Họ và tên</label>
-                                    <input
-                                      type="text"
-                                      name="first-name"
-                                      value="Lê Trọng Tình"
-                                    />
-                                    <label>Số điện thoại</label>
-                                    <input
-                                      type="text"
-                                      name="user-number"
-                                      value="012345678"
-                                    />
-                                    <label>Địa chỉ</label>
-                                    <input
-                                      type="text"
-                                      name="email-name"
-                                      value="1111/8/12 Nguyễn Xiển, TP Thủ Đức, TP Hồ Chí Minh"
-                                    />
-                                  <div class="button-box">
-                                    <button
-                                      class="btn default-btn"
-                                      type="submit"
-                                      id="submit_save__adress"
-                                    >
-                                      lưu địa chỉ
-                                    </button>
-                                  </div>
-                                </form>
+
+                          <div class="d331">
+                            <div class="row">
+                              <div class="col-2">
+                                <div class="row d332 text-end">
+                                  <p>Họ và tên</p>
+                                </div>
+                                <div class="row d332 text-end">
+                                  <p>Số điện thoại</p>
+                                </div>
+                                <div class="row d332 text-end">
+                                  <p>Địa chỉ</p>
+                                </div>
                               </div>
-                            </div>
-                          </div>
-                          <div id="address-save">
-                            <div class="d331">
-                              <div class="row">
-                                <div class="col-2">
-                                  <div class="row d332 text-end">
-                                    <p>Họ và tên</p>
-                                  </div>
-                                  <div class="row d332 text-end">
-                                    <p>Số điện thoại</p>
-                                  </div>
-                                  <div class="row d332 text-end">
-                                    <p>Địa chỉ</p>
+                              <div class="col-8">
+                                <div class="row d333">
+                                  <p>
+                                    Lê Trọng Tình
+                                    <span class="sp333">Mặc định</span>
+                                  </p>
+                                </div>
+                                <div class="row d333">
+                                  <p>(+84) 012345678</p>
+                                </div>
+                                <div class="row d333">
+                                  <p>
+                                    1111/8/12 Nguyễn Xiển, TP Thủ Đức, TP Hồ Chí
+                                    Minh
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="col-2">
+                                <div class="row">
+                                  <div class="container address">
+                                    <a href="#" class="view b333">Chỉnh sửa</a>
+                                    <a href="#" class="view b333">Xoá</a>
                                   </div>
                                 </div>
-                                <div class="col-8">
-                                  <div class="row d333">
-                                    <p>
-                                      Lê Trọng Tình
-                                      <span class="sp333">Mặc định</span>
-                                    </p>
-                                  </div>
-                                  <div class="row d333">
-                                    <p>(+84) 012345678</p>
-                                  </div>
-                                  <div class="row d333">
-                                    <p>
-                                      1111/8/12 Nguyễn Xiển, TP Thủ Đức, TP Hồ
-                                      Chí Minh
-                                    </p>
-                                  </div>
-                                </div>
-                                <div class="col-2">
-                                  <div class="row">
-                                    <div class="container address">
-                                      <button
-                                        class="view b333"
-                                        style="border: none"
-                                        id="save-address"
-                                      >
-                                        Chỉnh sửa
-                                      </button>
-                                      <a href="#" class="view b333">Xoá</a>
+                              </div>
+                              <div class="login-form-container">
+                                <div class="account-login-form">
+                                  <form action="#">
+                                    <div class="account-input-box">
+                                      <label>Họ và tên</label>
+                                      <input
+                                        type="text"
+                                        name="first-name"
+                                        value="Lê Trọng Tình"
+                                      />
+                                      <label>Email</label>
+                                      <input
+                                        type="text"
+                                        name="email-name"
+                                        value="trongtinh123@gmail.com"
+                                      />
+                                      <label>Số điện thoại</label>
+                                      <input
+                                        type="text"
+                                        name="user-number"
+                                        value="012345678"
+                                      />
+                                      <label>Giới tính</label>
+                                      <div>
+                                        <label style="display: inline"
+                                          >Nam</label
+                                        >
+                                        <input
+                                          type="radio"
+                                          value="Nam"
+                                          name="id_gender"
+                                          style="width: 5%"
+                                          checked
+                                        />
+                                        <label style="display: inline"
+                                          >Nữ</label
+                                        >
+                                        <input
+                                          type="radio"
+                                          value="Nữ"
+                                          name="id_gender"
+                                          style="width: 5%"
+                                        />
+                                      </div>
+                                      <label>Ngày sinh</label>
+                                      <input
+                                        type="date"
+                                        placeholder="MM/DD/YYYY"
+                                        value="2002-07-27"
+                                        name="birthday"
+                                      />
                                     </div>
-                                  </div>
+                                    <div class="example">(Vd: 31/05/1970)</div>
+                                    <div class="button-box">
+                                      <button
+                                        class="btn default-btn"
+                                        type="submit"
+                                        id="submit_111"
+                                      >
+                                        lưu thông tin
+                                      </button>
+                                    </div>
+                                  </form>
                                 </div>
                               </div>
                             </div>

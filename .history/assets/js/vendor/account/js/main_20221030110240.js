@@ -464,8 +464,8 @@ edit__address.onclick = function () {
   document.getElementById("edit_address__form").style.display = "block";
   document.getElementById("address-save").style.display = "none";
 };
-let save__address = document.getElementById("submit_save__adress");
+let save__address = document.getElementById("save-address");
 save__address.onclick = function () {
-  document.getElementById("edit_address__form").style.display = "none";
+  document.getElementById("edit_address").style.display = "none";
   document.getElementById("address-save").style.display = "block";
 };
